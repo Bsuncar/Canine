@@ -1,0 +1,474 @@
+/*MY CODE*/
+
+* {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	list-style: none;
+}
+
+.main-photo {
+	display: none;
+}
+
+.top-image {
+	display: none;
+}
+
+/*NAVIGATION*/
+
+.navigation {
+	width: 100%;
+	height: 27px;
+	background: #E8E8E8;
+}
+
+header .navigation {
+	font-family: "Letter Gothic Std Medium";
+	font-size: 10px;
+	color: #707070;
+}
+
+header nav ul {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+header nav ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 15px;
+}
+
+header nav ul li a {
+	font-family: "Letter Gothic Std";
+	font-size: 10px;
+	color: #000000;
+
+}
+
+header .about-us { 
+	display: none;
+}
+
+/**DESKTOP**/
+
+@media only screen and (min-width: 1000px) {
+	
+	/**NAVIGATOR**/
+	
+	header .navigation {
+		color: #707070;
+	}
+
+	header nav ul {
+		margin: 0;
+	}
+
+	header nav ul li {
+		display: inline-block;
+		float: left;
+		list-style: none;
+		padding: 5px 15px;
+	}
+
+	header nav ul li a {
+		font-size: 15px;
+		color: #707070;
+		text-transform: uppercase;
+	}
+
+	header .about-us { 
+		display: none;
+	}
+	
+
+
+	.top-image {
+		display: block;
+		width: 100%;
+		height: 65vh;
+		background-image: url(../images/heading.jpg);
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: contain;
+		background-attachment: fixed;
+	}
+	
+	/*HOME*/
+	
+		.logo {
+		width: 545px !important;
+		margin: 20px auto 0.2px auto;
+		display: block;
+    }
+	
+	/*INFORMATION 1*/
+	
+		.dog-buddybeds {
+		width: 540px !important;
+		margin: 0;
+		float: right;
+	}
+
+		.information-buddybed {
+		margin-top: 15px;
+		float: left;
+	}
+	
+		.information-buddybed h1 {
+		font-size: 55px !important;
+	}
+
+		.information-buddybed p {
+		font-size: 25px !important;
+	}
+	
+	/*INFORMATION 2*/
+	
+		.information-buddybed-2 {
+			margin: 0px;
+			padding: 0px;
+	}
+
+		.information-buddybed-2 h1 {
+			font-size: 55px !important;
+			font-weight: lighter;
+	}
+
+		.information-buddybed-2 ul li {
+			font-size: 25px !important;
+	}
+
+		.beds-standard {
+			display: block !important;
+			width: 489px;
+			float: right;
+	}
+	
+		.information-text-2 {
+		width: 600px;
+		float: left;
+	}
+	
+	/*INFORMATION 3*/
+
+		.information-buddybed-3 h1 {
+			font-size: 50px !important;
+			float: left;
+	}
+
+	 	.standard-design {
+			width: 750px !important;
+			margin-left: 200px;
+	}
+
+		.deluxe-design {
+			width: 750px !important;
+			margin-left: 200px;
+	}
+	
+	/*INFORMATION 4*/
+
+		.information-buddybed-4 h1 {
+			font-family: "Didot";
+			float: right;
+			width: 1150px;
+			font-size: 40px !important;
+			text-transform: uppercase;
+			margin: 0;
+	}
+
+		.color-brown {
+			width: 150px !important;
+	}
+
+		.color-red {
+			width: 150px !important;
+			padding: 0 24px;
+	}
+
+		.color-grey {
+			width: 150px !important;
+	}
+
+		.design-colors {
+			float: left;
+			margin: 50px 50px !important;
+	}
+	
+	
+}
+
+/*HOME*/
+
+.logo {
+	width: 200px;
+	margin: 20px auto 0.2px auto;
+	display: block;
+}
+
+/*INFOMATION 1*/
+
+.dog-buddybeds {
+	width: 229px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+.information-buddybed {
+	font-family: "Didot";
+	margin-top: 15px;
+}
+
+.information-buddybed h1 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.information-buddybed p {
+	font-size: 10px;
+}
+
+.information-buddybed .bg-color {
+	background: #E8E8E8;
+	width: 100%;
+	height: 105;
+}
+
+/*INFORMATION 2*/
+
+.information-buddybed-2 {
+	font-family: "Didot";
+	margin: 0px;
+	padding: 0px;
+}
+
+.information-buddybed-2 h1 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.information-buddybed-2 ul li {
+	font-size: 10px;
+}
+
+.beds-standard {
+	display: none;
+}
+
+/*INFORMATION 3*/
+
+.information-buddybed-3 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.information-buddybed-3 .standard-design {
+	width: 100%;
+}
+
+.information-buddybed-3 .deluxe-design {
+	width: 100%;
+}
+
+/*INFORMATION 4*/
+
+.information-buddybed-4 h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.color-brown {
+	width: 73px;
+}
+
+.color-red {
+	width: 73px;
+	padding: 0 24px;
+}
+
+.color-grey {
+	width: 73px;
+}
+
+.design-colors {
+	float: left;
+	margin: 0 50px;
+}
+
+/*FOOTER*/
+
+footer {
+	width: calc(100% - 80px);
+	padding: 40px 40px 0;
+	background: #414141;
+	margin-top: 115px;
+	overflow: hidden;
+}
+
+footer ul {
+	width: fit-content;
+	float: left;
+}
+
+footer ul li {
+	display: block;
+	list-style: none;
+}
+
+footer ul li a {
+	font-family: "Letter Gothic Std";
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+.social-icons {
+	float: right;
+	width: 20px;
+}
+.social-icons img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*SHOP WEBSITE*/
+
+
+.deluxe {
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Euphemia UCAS";
+	letter-spacing: 5px;
+	font-weight: lighter;
+}
+
+.img {
+	width: 350px;
+}
+
+.shop-text {
+	margin-left: 60px;
+	font-size: 13px;
+	color: #170D0C;
+	font-family: 'Optima Regular';
+}
+
+.shop {
+	margin-top: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	border-bottom: 1px #C30003;
+	
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 1000px;
+}
+
+.standard {
+	text-align: center;
+	font-family: "Euphemia UCAS";
+	letter-spacing: 5px;
+	font-weight: lighter;
+}
+
+.shop-2 {
+	margin-top: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+/*CONTACT WEBSITE*/
+
+.costumer-service {
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0;
+	justify-content: center;
+}
+
+.call-us {
+	flex-basis: 20%;
+	margin: 5px auto;
+}
+
+.call-text {
+	font-family: "Lao Sangam MN";
+	color: black;
+}
+
+.costumer-service {
+	font-family: "Gill Sans Mt";
+	margin: 100px 0 50px;
+	font-size: 50px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+}
+
+/*FAQ WEBSITE*/
+
+.faq-inform {
+		width: 365px;
+		margin: 0 auto;
+	}
+	
+	.faq-inform hr {
+		width: 100%;
+	}
+
+	.faq-inform h2 {
+	
+		font-size: 25px;
+		letter-spacing: 3px;
+		font-weight: lighter;
+		font-family: "Marion";
+	}
+
+	.faq-inform p {
+		font-size: 12.5px;
+		letter-spacing: .5px;
+		font-family: "Tahoma";
+	}
+
+@media only screen and (min-width: 765px) {
+	.faq {
+	margin: 0;
+	padding: 0;
+}
+
+.faq-inform {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.faq-inform h2 {
+	font-size: 50px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-family: "Marion";
+}
+
+.faq-inform p {
+
+	font-size: 25px;
+	letter-spacing: .5px;
+	font-family: "Tahoma";
+}
+	
+}
